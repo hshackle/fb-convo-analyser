@@ -2,7 +2,7 @@ Facebook Conversation Analyser
 ============================
 
 This is a dumb thing that I wrote because I took three weeks of a data analysis class and now I think I know everything about #bigdata.
-This program allegedly goes through your Facebook messages and determines the frequency in which you start conversations with different people.
+This program allegedly goes through your Facebook messages and determines the frequency in which you start conversations with different people. This is intended to be mostly humorous and you should probably avoid drawing any grand conclusions out of the data it produces.
 
 Usage
 -----
