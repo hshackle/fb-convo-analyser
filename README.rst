@@ -2,7 +2,7 @@ Facebook Conversation Analyser
 ============================
 
 This is a dumb thing that I wrote because I took three weeks of a data analysis class and now I think I know everything about #bigdata.
-This program allegedly goes through your Facebook messages and determines the frequency in which you start conversations with different people.
+This program allegedly goes through your Facebook messages and determines the frequency in which you start conversations with different people. This is intended to be mostly humorous and you should probably avoid drawing any grand conclusions out of the data it produces.
 
 Usage
 -----
@@ -18,5 +18,5 @@ The code here will assume that your data is contained in output.csv. If you deci
 
 Finally, modify the relevant parameters in fb_convo_analyser.R and execute it. Currently the code has only been tested on my data, so if you get any weird error messages, let me know and I'll try to figure out whatever edge case is throwing it for a loop.
 
-Currently the program is set to just output a histogram distribution of the data, which isn't terribly interesting. If you're running out of something fancy like RStudio, you can visually inspect the resulting dataframe (full.data), which gives you specific statistics for individual people. 
+The program is set to output a histogram distribution of the data, as well as a .csv file containing the individual conversations and your conversation starting frequency for each. You can probably do more creative things with this if you wish.
   
