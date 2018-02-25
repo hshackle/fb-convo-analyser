@@ -49,7 +49,7 @@ full.data <- ldply (full.data, data.frame)
 full.data <- full.data[!(full.data$.id %in% fake.friends),]
 
 # Creates histogram corresponding to the data obtained.
-png('convo_distribution_people.png')
+png('convo_distribution.png')
 hist(full.data[,2], breaks=seq(0, 1, by=1/12), main="Personal Tendency to Start Conversations", col="blue", xlab="Frequency of Conversation Starting", ylab="Number of Conversations")
 dev.off()
 
