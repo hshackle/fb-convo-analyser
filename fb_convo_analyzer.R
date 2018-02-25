@@ -15,7 +15,7 @@ minimum.messages <- 50
 
 
 # Reads in messenger data and removes empty messages (created whenever a conversation is initialized apparently) and threads with commas in the titles (meant as a rough but imperfect attempt to filter out group chats - you can manually remove other groups if you care).
-messenger.data <- read.csv(file="outputFull.csv", header=TRUE, sep=",", stringsAsFactors=FALSE)
+messenger.data <- read.csv(file="output.csv", header=TRUE, sep=",", stringsAsFactors=FALSE)
 messenger.data <- messenger.data[!(is.na(messenger.data$message) | messenger.data$message=="" | grepl(",", messenger.data$thread)),]
 
 # Parses time data into a usable format.
